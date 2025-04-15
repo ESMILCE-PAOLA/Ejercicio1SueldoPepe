@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticoObjetos", "PracticoObjetos.csproj", "{8B50E2AC-51A6-4433-B12C-5CEE86F15438}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1SueldoPepe", "Ejercicio1SueldoPepe.csproj", "{8B50E2AC-51A6-4433-B12C-5CEE86F15438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicios", "Ejercicios", "{EF6CCBC1-AE41-412E-9475-2DC0BA96D501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicio1", "Ejercicio1", "{8B6E4321-A2BB-4635-A9FD-00FB4690CC01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B50E2AC-51A6-4433-B12C-5CEE86F15438} = {8B6E4321-A2BB-4635-A9FD-00FB4690CC01}
+		{8B6E4321-A2BB-4635-A9FD-00FB4690CC01} = {EF6CCBC1-AE41-412E-9475-2DC0BA96D501}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C20FB0F-6CD5-465A-A040-D3BBB449D140}
